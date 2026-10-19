@@ -1,0 +1,46 @@
+[
+  {
+    "ticket_id": "REL-101",
+    "title": "Migrate Customer Master DB Schema",
+    "service": "Core-Database",
+    "dev_status": "Done",
+    "git_pr_status": "Merged",
+    "uat_signoff": true,
+    "db_migration": true,
+    "rollback_plan_attached": false,
+    "blocked_by": []
+  },
+  {
+    "ticket_id": "REL-102",
+    "title": "Inventory Sync API v2",
+    "service": "Inventory-Service",
+    "dev_status": "Ready for Release",
+    "git_pr_status": "Open",
+    "uat_signoff": true,
+    "db_migration": false,
+    "rollback_plan_attached": true,
+    "blocked_by": []
+  },
+  {
+    "ticket_id": "REL-103",
+    "title": "Store POS Checkout Adapter",
+    "service": "POS-Checkout",
+    "dev_status": "Ready for Release",
+    "git_pr_status": "Merged",
+    "uat_signoff": false,
+    "db_migration": false,
+    "rollback_plan_attached": true,
+    "blocked_by": ["REL-102"]
+  },
+  {
+    "ticket_id": "REL-104",
+    "title": "Promotional Banner Component",
+    "service": "Web-Storefront",
+    "dev_status": "Done",
+    "git_pr_status": "Merged",
+    "uat_signoff": true,
+    "db_migration": false,
+    "rollback_plan_attached": true,
+    "blocked_by": []
+  }
+]

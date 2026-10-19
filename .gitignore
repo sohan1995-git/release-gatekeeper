@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# Data / Temporary outputs
+*.csv
